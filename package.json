@@ -1,0 +1,9 @@
+{
+  "name": "benchmark-compare-toctou-poc",
+  "private": true,
+  "packageManager": "pnpm@12.15.0",
+  "scripts": {
+    "prepare": "node -e \"console.log('base prepare script')\"",
+    "benchmarks": "node scripts/benchmarks.mjs"
+  }
+}
